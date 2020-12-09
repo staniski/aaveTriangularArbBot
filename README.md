@@ -6,7 +6,7 @@ This is a triangular arbitrage bot which uses node.js and gets data from IKyberP
 
 0. Install Truffle globally, if not already installed.
     ```
-    clone the repository
+    npm install -g truffle@latest
     ```
     
 
@@ -31,3 +31,6 @@ This is a triangular arbitrage bot which uses node.js and gets data from IKyberP
     - If you have not added any profitable logic to `Flashloan.sol` line 23, then you will need to fund your contract with the desired asset.
     - See our [documentation](https://docs.aave.com/developers/developing-on-aave/deployed-contract-instances#reserves-assets) for token address and faucets.
 8.  Call node index.js and the bot is running. 
+```
+node index.js
+```
